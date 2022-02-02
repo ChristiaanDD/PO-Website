@@ -1,0 +1,14 @@
+div {
+    color: cyan;
+    background-color: rgb(7, 7, 230);
+}
+header { color:  chartreuse; background-color:  forestgreen } 
+footer { color: pink; background-color: magenta}
+article { color: orange; background-color: red} 
+body { margin: 0}
+header {background-color: forestgreen;
+height:100px}
+.content { display: flex} 
+.navigatie { display: flex} 
+nav { width: 20vw;
+color: cyan; background-color: rgb(7, 7, 230)}
