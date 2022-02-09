@@ -7,7 +7,7 @@ footer { color: pink; background-color: magenta}
 article { color: orange; background-color: red} 
 body { margin: 0}
 header {background-color: forestgreen;
-height:150px}
+height:50px}
 .content { display: flex} 
 .navigatie { display: flex} 
 nav { width: 20vw;
