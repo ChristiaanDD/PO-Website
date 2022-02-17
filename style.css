@@ -1,18 +1,14 @@
-div {
-    color: cyan;
-    background-color: rgb(7, 7, 230);
-}
-header { color:  chartreuse; background-color:  forestgreen } 
-footer { color: pink; background-color: magenta}
-article { color: orange; background-color: red} 
+div { color: white; background-color: black}
+header { color: white; background-color: black} 
+footer { color: white; background-color: black}
+article { color: white; background-color: black}
 body { margin: 0}
-header {background-color: forestgreen;
+header { color: white; background-color: black
 height:50px}
 .content { display: flex} 
 .navigatie { display: flex} 
 nav { width: 20vw;
-
-color: cyan; background-color: rgb(7, 7, 230)}
-aside { color: rgb(17, 182, 17); background-color: aquamarine}
+color: white; background-color: black }
+aside { color: white; background-color: black}
 
 
