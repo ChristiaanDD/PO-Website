@@ -7,8 +7,26 @@ header { color: white; background-color: black
 height:50px}
 .content { display: flex} 
 .navigatie { display: flex} 
-nav { width: 20vw;
+            
+nav { width: 50vw;
+     height: 60px; }
 color: white; background-color: black }
 aside { color: white; background-color: black}
 
+img {
+  width: 75%;
+  height: auto;
+} 
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 
+ @media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  footer { height: 40px;
+          width: 25vd; } 
