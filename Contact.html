@@ -11,20 +11,27 @@
 <p> Als je nog vragen hebt of nog iets wilt weten kun je dat doen door de onderstaande gegevens in te vullen. </p></div> 
 
 <form>
-  <fieldset
-  		<label class="invoerveld" for="fname">Voornaam:</label><br>
-  		<input class="invoerveld" type="text" id="Voornaam" name="Voornaam" placeholder="Voornaam..." required=""> <br>
-  		<label class="invoerveld" for="lname">Achternaam:</label><br>
-  		<input class="invoerveld" type="text" id="Achternaam" name="Achternaam" placeholder="Achternaam..." required=""> <br>
-			<label class="invoerveld" for="email" >E-mail:</label><br>
-			<input class="invoerveld" type="text" id="email" required name="email" placeholder="E-mail..." required=""> 
-<p> </p>
-			
-<label class="invoerveld" for="Telefoon">Telefoonnummer:</label><br>
-  		<input class="invoerveld" type="text" id="Telefoon" name="Telefoonnummer" placeholder="Telefoonnummer..." required="">
-  
-    <br>
+<fieldset>
+  		<label class="invoerveld" for="fname">First name:</label><br>
+  		<input class="invoerveld" type="text" id="fname" name="fname" placeholder="First name..." required=""> <br>
+  		<label class="invoerveld" for="lname">Last name:</label><br>
+  		<input class="invoerveld" type="text" id="lname" name="lname" placeholder="Last name..." required=""> <br>
+			<label class="invoerveld" for="email">E-mail:</label><br>
+			<input class="invoerveld" type="text" id="email" name="email" placeholder="E-mail..." required="">
+	<br>
+  <label class="invoerveld" for="phone">Phonenumber:</label><br>
+  		<input class="invoerveld" type="text" id="phone" name="phone" placeholder="Phonenumber..." required=""> <br>
+
+	<label for="browser">Land:</label>
+		<input class="invoerveld" list="browsers" name="browser" id="browser" placeholder="Land..." required=""> <br>
 			<input class="knop" type="submit" value="Verzenden">
-</fieldset>  
-  </form>
-</body>  
+	   <datalist id="browsers">
+  	  <option value="Nederland">
+  	  </option><option value="Belgium">
+  	  </option><option value="France">
+  	  </option><option value="Germany">
+  	  </option><option value="Other">
+	</datalist>
+		</fieldset>
+</form>
+</body>
